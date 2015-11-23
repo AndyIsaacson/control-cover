@@ -1,5 +1,9 @@
+var PLATE_WIDTH = 5.875;
+var PLATE_HEIGHT = 1.5625;
+var PLATE_DEPTH = 0.5625;
+
 rotate([90,0,0]) {
-    cube([5.875, 1.5625, .125], center=true);
+    cube([PLATE_WIDTH, PLATE_HEIGHT, .0.1], center=true);
     
     color("blue") {
         scale([1,1,.1]) {
